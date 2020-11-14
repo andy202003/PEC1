@@ -1,8 +1,74 @@
-<html>
-<body>
- <link rel="stylesheet" href="style.css">
-<h1>Pruebas<h1>
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portal Literatura</title>
+    <meta name="description" content="Portal Literatura para los amantes de buenas historias" />
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <a class="sr" href="#main">Saltar al contenido principal</a>
+    <div class="containerFluid">
+      <header class="header">
+        <div class="brand">
+          <a href="index.html"><img src="img/logo.png" alt="" /></a>
+          <a href="index.html"
+            ><h1><span>Portal</span><span>Literatura</span></h1></a
+          >
+        </div>
+        <nav class="navbar">
+          <ul>
+            <li><a href="libros-clasicos.html">Libros Clásicos</a></li>
+            <li><a href="autores-clasicos.html">Autores clásicos</a></li>
+          </ul>
+        </nav>
+     
+      </header>
+    </div>
+    <div class="banner" data-height="400" data-width="100%" data-slide-speed="900" data-autoslide="5000">
+      <img src="img/slide1.jpg" class="slider" />
+      <img src="img/slide2.jpg" class="slider" />
+      <img src="img/slide3.jpg" class="slider" />
+      <img src="img/slide4.jpg" class="slider" />
 
-  <script src="./index.js">console.log('hello world')</script>
-</body>
+      <div class="previous" data-previous-cursor="img/eft.png"></div>
+      <div class="next" data-next-cursor="img/right.png"></div>
+
+      <div class="links">
+        <a href="1"></a>
+        <a href="2"></a>
+        <a href="3"></a>
+        <a href="4"></a>
+      </div>
+    </div>
+    <main id="main" class="home">
+      <div class="container">
+        <section>
+          <h2 class="textCenter">Portal Literatura</h2>
+          <p class="textJustify">Bienvenido al Portal de Literatura. Desde aquí puedes acceder fácilmente a los diferentes libros clasicos de la literatura y sus autores.</p>
+        </section>
+        <section></section>
+      </div>
+    </main>
+
+    <footer>
+      <div class="containerFluid">
+        <div class="footer">
+          <ul>
+            <li><a href="">Sobre nosotros</a></li>
+            <li><a href="">Aviso legal</a></li>
+            <li><a href="">Política de privacidad</a></li>
+          </ul>
+         
+        </div>
+        <p>&copy; 2020 Andrea Fernanda Loayza Vásquez</p>
+      
+        <div class="goTop">
+          <a href="#main"> <img src="img/librovector.jpg" /></a>
+        </div>
+      </div>
+    </footer>
+    <script src="slider.js"></script>
+  </body>
 </html>
