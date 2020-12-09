@@ -6,13 +6,15 @@
     <title>Portal Literatura | William Shakespeare</title>
     <meta name="description" content="Biografia de William Shakespeare" />
     <link rel="stylesheet" href="css/estilos.css" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
   </head>
   <body>
     <a class="sr" href="#main">Saltar al contenido principal</a>
     <div class="containerFluid">
       <header class="header">
         <div class="brand">
-          <a href="index.html"><img src="img/logo.png" alt="" /></a>
+          <a href="index.html"><img src="img/logo.png" alt="logo" /></a>
           <a href="index.html"
             ><h1><span>Portal</span><span>Literatura</span></h1></a
           >
@@ -29,8 +31,12 @@
     <main id="main">
       <div class="container">
         <article>
-          <h3>Romeo y Julieta</h3>
-          <img class="imgFluid2" src="img/book1.jpg" alt="William Shakespeare" />
+          <h2>Romeo y Julieta</h2>
+          <picture >
+            <source media="(max-width: 799px)" srcset="img/book1-resize.jpg" class="clip-detalle-libro">
+            <source media="(min-width: 800px)" srcset="img/book1.jpg">
+            <img src="img/book1.jpg" alt="William Shakespeare" class="imgFluid2">
+            </picture>
           <p>Romeo y Julieta es una historia de amor entre dos jóvenes de 16 años. Son de familias enemigas en la ciudad de Verona.</p>
           <p>
             Pertenecen a las familias de los Capuletos y los Montescos, que son las más poderosas de la ciudad pero están enfrentadas entre sí. Julieta celebra la fiesta de sus 16 años de edad y en
@@ -38,27 +44,58 @@
           </p>
           <p>Se casan en secreto al día siguiente de conocerse en un alarde de completo romanticismo y pasión. Les une un sacerdote en una ceremonia religiosa.</p>
           <p>Continuará...</p>
-          <h3 lang="en">Video resumen Romeo y Julieta</h3>
-          <figure>
-            <div class="videoFluid">
-              <iframe
-                class="videoFluidItem"
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/h-qRyE562zQ"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
+          <h3 lang="en">Representaciones de Romeo y Julieta</h3>
 
-              <a class="sr" href="https://www.youtube.com/embed/h-qRyE562zQ">Ver el vídeo en Youtube</a>
-            </div>
+          <figure  class="centrar">
+           
+<img 
+sizes="(max-width: 512px) 100vw, 512px"
+srcset="
+img/Ilustracion1_f1djiz_c_scale_w_200.jpg 200w,
+img/Ilustracion1_f1djiz_c_scale_w_460.jpg 460w,
+img/Ilustracion1_f1djiz_c_scale_w_512.jpg 512w"
+src="img/Ilustracion1_f1djiz_c_scale_w_512.jpg"
+alt="Ilustracion">
+
+           
+          <figcaption >   <a href="https://www.flickr.com/photos/91485322@N00/762689269">"Romeo y Julieta"</a>
+             <span> by <a href="https://www.flickr.com/photos/91485322@N00">srgpicker</a>
+            </span> is licensed under 
+            <a href="https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=html" >CC BY 2.0</a>
+          </figcaption>
           </figure>
-        </article>
+      
+        
+          <figure class="centrar">
+             
+<img
+sizes="(max-width: 512px) 100vw, 512px"
+srcset="
+img/Ilustracion2_cczz0r_c_scale_w_200.jpg 200w,
+img/Ilustracion2_cczz0r_c_scale_w_412.jpg 412w,
+img/Ilustracion2_cczz0r_c_scale_w_512.jpg 512w"
+src="img/Ilustracion2_cczz0r_c_scale_w_512.jpg"
+alt="Ilustracion">
+
+              <figcaption>  
+          <a href="https://www.flickr.com/photos/59780753@N07/6972046920">"3. Romeo y Julieta © Foto Taller Albero"
+              </a>
+              <span> by <a href="https://www.flickr.com/photos/59780753@N07">Festival de Almagro</a>
+              </span> is licensed under 
+              <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/?ref=ccsearch&atype=html" 
+              style="margin-right: 5px;">CC BY-NC-SA 2.0</a>
+            </figcaption>  
+            </figure>
+          </article>
       </div>
     </main>
 
     <footer>
+   
+      <h2>Portal Literatura</h2>
+
+      <img class="clip-animation" alt="Sobre nosotros imagen" 
+      src="img/footer-img.jpg">
       <div class="containerFluid">
         <div class="footer">
           <ul>
@@ -66,11 +103,19 @@
             <li><a href="">Aviso legal</a></li>
             <li><a href="">Política de privacidad</a></li>
           </ul>
-       
+         
         </div>
         <p>&copy; 2020 Andrea Fernanda Loayza Vásquez</p>
+      
+     
+
         <div class="goTop">
-          <a href="#main"> <img src="img/librovector.jpg" /></a>
+        
+          <a href="#main">    <svg class="arrows">
+            <path class="a3" d="M0 30 L30 2 L60 30"></path>
+            <path class="a2" d="M0 50 L30 22 L60 50"></path>
+            <path class="a1" d="M0 70 L30 42 L60 70"></path>
+          </svg></a>
         </div>
       </div>
     </footer>
