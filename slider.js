@@ -149,7 +149,7 @@ for (var i = 0; i < imgLinks.length; i++) {
     fadeTo(nextImg, slideSpeed, 1);
   }
 
-  function previousImgFade() {
+ /* function previousImgFade() {
     fadeTo(currentImg, slideSpeed, 0);
     fadeTo(previousImg, slideSpeed, 1);
   }
@@ -158,7 +158,7 @@ for (var i = 0; i < imgLinks.length; i++) {
     fadeTo(currentImg, slideSpeed, 0);
     fadeTo(randomImg, slideSpeed, 1);
   }
-
+*/
   function boldText() {
     for (var i = 0; i < imgLinks.length; i++) {
       var currentHref = imgLinks[i].getAttribute("href");
