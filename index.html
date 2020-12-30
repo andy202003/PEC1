@@ -5,9 +5,213 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portal Literatura</title>
     <meta name="description" content="Portal Literatura para los amantes de buenas historias" />
-    <link rel="stylesheet" href="css/estilos.css" />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <style>
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font: 400 16px/1.6 "Merriweather", serif;
+  background-color: #6FB98F;
+  color: rgb(2, 15, 20);
+  overflow-x: hidden;
+  word-wrap: break-word;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+}
+
+h1,
+.h1 {
+  font-size: 2rem;
+}
+
+h2,
+.h2 {
+  font-size: 1.5rem;
+  line-height: 1.5em;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #021c1e;
+  text-decoration: none;
+}
+
+.textJustify {
+  text-align: justify;
+}
+
+.textCenter {
+  text-align: center;
+}
+main {
+  width: 100%;
+  padding: 50px 0;
+}
+
+header {
+  padding: 15px 0;
+}
+
+footer {
+  padding: 30px 0;
+}
+img.clip-animation  {
+
+  display: block;
+  margin-left: 15px;
+
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
+  
+}
+header {
+  font-size: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand h1 span:last-child {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.brand img {
+  margin-right: 15px;
+}
+
+.brand a {
+  color: rgb(2, 15, 20);
+}
+
+.brand,
+.navbar
+ {
+  margin-bottom: 15px;
+}
+footer {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 0.9rem;
+  position: relative;
+  text-align: center;
+  background-color: rgb(67, 58, 68);
+  color: rgb(255, 255, 255);
+}
+
+footer p {
+  font-size: 0.75rem;
+  margin-bottom: 0;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 30px 0;
+  margin: 0;
+}
+
+footer h2{
+  margin-left: 15px;
+}
+
+.goTop {
+  position: absolute;
+  right: 15px;
+  bottom: 0px;
+  font-size: 2rem;
+  margin-right: 30px;
+}
+
+footer a {
+  color: rgb(255, 255, 255);
+}
+
+footer a:hover {
+  color: #2c7873;
+}
+.containerFluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%;
+}
+
+nav.navbar {
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  font-size: x-large;
+
+}
+
+nav.navbar ul {
+  list-style-type: none;
+}
+
+nav.navbar a {
+  font-weight: 700;
+  color: rgba(2, 15, 20, 1);
+}
+.arrows {
+	width: 60px;
+	height: 72px;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 20px;
+}
+
+.arrows path {
+	stroke: #29d199;
+	fill: transparent;
+	stroke-width: 2px;	
+	animation: arrow 3s infinite;
+}
+.arrows path.a1 {
+	animation-delay:-1s;
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+}
+
+.arrows path.a3 {	
+	animation-delay:0s;
+}
+      </style>
   </head>
   <body>
     <a class="sr" href="#main">Saltar al contenido principal</a>
