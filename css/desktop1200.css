@@ -1,0 +1,36 @@
+
+@media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  
+    img.clip-animation  {
+  
+      display: block;
+      margin-left: 15px; 
+      width: 200px;    
+    }
+  }
+
+  
+@media (min-width: 1200px) {
+    ul.clubs.gridContainer {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, 33.33333%);
+    }
+  }
+
+  
+@media (min-width: 1200px) {
+    .gridContainer2cols {
+      display: grid;
+      grid-template-columns: 5% auto;
+      column-gap: 15px;
+    }
+  
+    article {
+      text-align: justify;
+      hyphens: auto;
+    }
+   
+  }

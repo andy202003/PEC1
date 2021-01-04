@@ -1,5 +1,14 @@
 {
   "plugins": {
     "autoprefixer": true
-  }
-}
+    
+  },
+'postcss-extract-media-query': {
+       
+            queries: {
+                'screen and (min-width: 992px)': 'desktop'
+            }
+        }
+    }
+
+  
