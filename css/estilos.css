@@ -519,8 +519,6 @@ margin-left: 3px;
 
 }
 
-
-
 .arrows {
 	width: 60px;
 	height: 72px;
@@ -533,7 +531,8 @@ margin-left: 3px;
 .arrows path {
 	stroke: #29d199;
 	fill: transparent;
-	stroke-width: 2px;	
+  stroke-width: 2px;	
+  animation: arrow 2s infinite;
 }
 
 @keyframes arrow
@@ -542,14 +541,6 @@ margin-left: 3px;
 40% {opacity:1}
 80% {opacity:0}
 100% {opacity:1}
-}
-
-@-webkit-keyframes arrow 
-{
-0% {opacity:0}
-40% {opacity:1}
-80% {opacity:0}
-100% {opacity:0}
 }
 
 .arrows path.a1 {
